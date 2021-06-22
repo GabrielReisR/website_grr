@@ -9,6 +9,8 @@ draft: false
 layout: single
 ---
 #### In preparation
+- Farina, L. S. A., **Rodrigues, G. R.**, & Hutz, C. S. (in press). Individual and environment qualities associated with engagement and flow at work. In A. C. S. Vazquez & C. S. Hutz (Eds.), *Aplicações da psicologia positiva - Trabalho e organizações*. Hogrefe CETEPP.
+
 - **Rodrigues, G. R.**, Farina, L. S. A., & Teixeira, M. A. P. (in press). Evaluating career adapt-abilities during career counseling. In C. S. Hutz, D. R. Bandeira, C. M. Trentini, & J. P. Giordani (Eds.), *Avaliação psicológica no contexto escolar e educacional*. Grupo A.
 
 - **Rodrigues, G. R.**, Marasca, A. R., Yates, D. B., Bandeira, D. R. (in press). Follow-up on psychological assessment with a clinical school sample. *Interação em Psicologia*.
