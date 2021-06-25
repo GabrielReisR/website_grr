@@ -33,7 +33,7 @@ enableEmoji = true
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/research.png"
   logo = "/img/research.png"
-  mainSections = ["publications"] # ["blog", "project", "talk"]
+  mainSections = ["publications", "projects"] # ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -123,7 +123,7 @@ enableEmoji = true
     name = "Publications"
     title = "Publications"
     url = "/publications/"
-    weight = 4
+    weight = 1
   #[[menu.header]]
   #  name = "About"
   #  title = "About Blogophonic"
@@ -134,11 +134,11 @@ enableEmoji = true
   #  title = "Blog"
   #  url = "/blog/"
   #  weight = 2
-  #[[menu.header]]
-  #  name = "Projects"
-  #  title = "Project Portfolio"
-  #  url = "/project/"
-  #  weight = 3
+  [[menu.header]]
+    name = "Projects"
+    title = "Project Portfolio"
+    url = "/projects/"
+    weight = 2
   #[[menu.header]]
   #  name = "Talks"
   #  title = "Talks"
