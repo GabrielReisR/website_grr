@@ -2,7 +2,7 @@
 title: 'Organizando com tidyr - Parte 2: valores missing'
 author: "Gabriel R. R."
 date: "8/2/2020"
-draft: false
+draft: true
 images:
 series:
 tags:
