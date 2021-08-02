@@ -139,11 +139,11 @@ enableEmoji = true
     title = "Project Portfolio"
     url = "/projects/"
     weight = 2
-  [[menu.header]]
-    name = "Blog"
-    title = "Blog"
-    url = "/blog/"
-    weight = 4
+  #[[menu.header]]
+  #  name = "Blog"
+  #  title = "Blog"
+  #  url = "/blog/"
+  #  weight = 4
     
   # Configure footer  
   [[menu.footer]]
