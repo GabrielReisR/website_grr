@@ -1,5 +1,5 @@
 ---
-title: A Blog That Works
+title: Notes on things I sometimes forget
 description: |
   This is a fully featured blog that supports categories, 
   tags, series, and pagination.
