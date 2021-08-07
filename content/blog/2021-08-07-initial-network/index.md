@@ -18,7 +18,7 @@ series:
 tags:
 categories:
 - network psychometrics
-- tutorial
+- tutorials
 layout: single # or single-sidebar
 ---
 ## A lot can be done with just a matrix
