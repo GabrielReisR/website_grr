@@ -4,7 +4,7 @@ subtitle: "How to add panelsets in R Markdown posts."
 excerpt: "Add tabbed sections with code and results."
 date: 2021-05-24
 author: "Alison Hill"
-draft: false
+draft: true
 # layout options: single, single-sidebar
 layout: single
 categories:

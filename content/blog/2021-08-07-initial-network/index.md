@@ -12,7 +12,7 @@ output:
     smooth_scroll: true
     df_print: paged
     code_folding: show
-draft: true
+draft: false
 images:
 series:
 tags:
