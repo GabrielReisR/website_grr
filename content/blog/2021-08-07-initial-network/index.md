@@ -1,7 +1,7 @@
 ---
 title: "Estimating a psychometric network with qgraph"
 subtitle: "Learn how to estimate a simple network with qgraph"
-excerpt: "Understand qgraph's simplicity in estimating networks"
+excerpt: "Understand qgraph's simplicity in estimating networks."
 author: "Gabriel R. R."
 date: 2021-08-07
 output: 
@@ -55,23 +55,60 @@ mat <- matrix(
   ncol = 6, nrow = 6,
   byrow = TRUE)
 
-qgraph(mat)
+network <- qgraph(mat)
 ```
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/Creating matrix-1.png" width="672" />
 
-## Let's tweak some things
+## Accessing layout
 
-Ok.
+Ok. I think one important thing to understand is how qgraph stores the layout
+of the network. This is helpful, for instance, if we want to compare networks.
 
-
-
-
-
-
-
+The layout is a rectangular matrix of Xs and Ys for each node. Let's change the 
+values of *mat*, get the layout from our initial *network* and then plot
+the network again, keeping the same exact structure from before.
 
 
+```r
+mat <- matrix(
+  c(
+       0,  0.9,    0,  0.5, 0.2, -0.1,
+     0.9,    0, -0.4,    0,   0,    0,
+       0, -0.4,    0,  0.2,   0,    0,
+     0.5,    0,  0.2,    0, 0.3,    0,
+     0.2,    0,    0,  0.3,   0,    0,
+    -0.1,    0,    0,    0,   0,    0
+    ),
+  ncol = 6, nrow = 6,
+  byrow = TRUE)
+
+qgraph(mat, layout = network$layout)
+```
+
+<img src="{{< blogdown/postref >}}index_files/figure-html/Keeping layout-1.png" width="672" />
+
+We can access the layout object using `network$layout`. We can use this to
+change the nodes' location directly. But that isn't common nor very useful
+(except if you're plotting a network simulation).
+
+## Saving network
+
+The last initial step comprises saving our network in the correct way. We can't
+rely on RStudio's Plot window because the network will try to adapt to that
+window's size. Instead, we save our network using the arguments `filetype` and
+`filename`. That way, our network gets saved in our current directory. You can
+also access a nested directory directly in `filename`.
 
 
+```r
+qgraph(mat, 
+       layout = network$layout,
+       filetype = 'png', # can be 'R', 'pdf', 'svg', 'tex', 'jpg', 'tiff', 'png'
+       filename = '\\figures\\network') # opens 'figures' paste and saves there
+```
 
+It's important to note that, if we're dealing with a network that has a legend,
+we must specify width to be 1.4 times the height.
+
+That's it for now :)
