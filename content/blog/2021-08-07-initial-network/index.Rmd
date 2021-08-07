@@ -1,5 +1,5 @@
 ---
-title: "Estimating a psychometric network with qgraph"
+title: "Estimating a (simple) network with qgraph"
 subtitle: "Learn how to estimate a simple network with qgraph"
 excerpt: "Understand qgraph's simplicity in estimating networks."
 author: "Gabriel R. R."
