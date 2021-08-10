@@ -19,6 +19,7 @@ tags:
 categories:
 - network psychometrics
 - tutorials
+- qgraph
 layout: single # or single-sidebar
 ---
 ## A lot can be done with just a matrix
