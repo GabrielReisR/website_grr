@@ -35,4 +35,3 @@ You can:
 The goal of the app is to help students grasp the correlation concept in a more
 intuitive way. Some interpretation guidelines based on Cohen (1988) are 
 suggested according to the correlation strenght.
-
