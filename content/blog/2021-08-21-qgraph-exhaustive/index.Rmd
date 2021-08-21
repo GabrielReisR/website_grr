@@ -129,15 +129,15 @@ network <-
     #' *Output arguments* (pp. 30-31)
     
     #mar = c(3, 3, 3, 3), # margins' vector c(bottom, left, top, rigth)
-    #' *filetype* = 'R', can also be 'pdf', 'svg', 'tex', 'jpg', 'tiff'
+    #' *filetype* = 'R', can also be 'pdf', 'svg', 'tex', 'jpg', 'png', 'tiff'
     #' *filename* = 'graph', name of the file WITHOUT extension
-    width = 7 * 1.4, # width of figue
-    height = 7, # height of figure
-    normalize = T, # graph's normalized to look the same for all sizes
-    DoNotPlot = F, # useful to save plot without plotting
-    plot = T, # should a new plot be made? if F, adds graph to existing plot
-    rescale = T, # should layout be rescaled? best used with plot = F
-    standAlone = F, # make output standalone LaTeX file if filetype = 'tex'
+    #width = 7 * 1.4, # width of figue
+    #height = 7, # height of figure
+    #normalize = T, # graph's normalized to look the same for all sizes
+    #DoNotPlot = F, # useful to save plot without plotting
+    #plot = T, # should a new plot be made? if F, adds graph to existing plot
+    #rescale = T, # should layout be rescaled? best used with plot = F
+    #standAlone = F, # make output standalone LaTeX file if filetype = 'tex'
     
     #' *Graphical arguments*
     
@@ -162,8 +162,8 @@ network <-
     #' *subpars* = ..., list of graphical parameters to use in subplots
     #' *subplotbg* = ..., background to be used in subplots
     images = NA, # indicate file location of PNG of JPEG img to use as nodes
-    noPar = T, # don't run the par function
-    pastel = F, # should default colors be chosen from pastel colors?
+    noPar = F, # don't run the par function
+    #' *pastel* = F, # should default colors be chosen from pastel colors?
     #' *rainbowStart* = ..., number from 0 to 1 indicating offset of rainbow
     usePCH = F, # nodes drawn using polygons or base R plotting symbols?
     node.resolution = 100, # resolution of nodes if usePCH = F
@@ -215,7 +215,7 @@ network <-
     #' ...
     
     # Legend
-    legend.cex = 0.23,
+    legend.cex = 0.27,
     nodeNames = items
     
     #' ...
@@ -223,7 +223,6 @@ network <-
     #' ...
   )
 ```
-
 
 ## References
 Costantini, G., Epskamp, S., Borsboom, D., Perugini, M., Mõttus, R., Waldorp, 
