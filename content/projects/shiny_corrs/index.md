@@ -7,7 +7,7 @@ date: 2021-06-25
 author: "Gabriel Rodrigues"
 draft: false
 tags:
-  - hugo-site
+  - 
 categories:
   - R
   - app
