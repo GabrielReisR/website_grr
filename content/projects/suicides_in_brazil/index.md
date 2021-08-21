@@ -1,7 +1,7 @@
 ---
 title: "Suicides in Brasil: 2010-2019 (PT-BR)"
-subtitle: "Suicides in Brazil: How many? Who? Where?"
-excerpt: "Descriptive statistics and visualization of suicides in Brazil."
+subtitle: "Descriptive statistics and visualization of suicides in Brazil."
+excerpt: "Suicides in Brazil: How many? Who? Where?"
 date: 2021-06-25
 author: "Gabriel Rodrigues"
 draft: false
