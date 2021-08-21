@@ -140,7 +140,7 @@ numbers of λ varying from 0 to 1.
 One important thing is that the EBIC uses a parameter called γ, that varies from
 0 to 1. A value of γ = 0 aims toward discovery and allows for more Type I 
 errors. A value of γ = 1 is conservative and will probably commit more Type II
-errors. The recommended value of γ is 0.5 according to Epskamp and Fried (YEAR).
+errors. The recommended value of γ is 0.5 according to Epskamp and Fried (2018).
 This is also the default in *qgraph*.
 
 ## References
