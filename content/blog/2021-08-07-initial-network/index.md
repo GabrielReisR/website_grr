@@ -106,10 +106,14 @@ also access a nested directory directly in `filename`.
 qgraph(mat, 
        layout = network$layout,
        filetype = 'png', # can be 'R', 'pdf', 'svg', 'tex', 'jpg', 'tiff', 'png'
-       filename = '\\figures\\network') # opens 'figures' paste and saves there
+       filename = '\\figures\\network', # opens 'figures' paste and saves there
+       height = 5,
+       width = 5 * 1.4)
 ```
 
 It's important to note that, if we're dealing with a network that has a legend,
 we must specify width to be 1.4 times the height.
+
+It would look something like this:
 
 That's it for now :)
