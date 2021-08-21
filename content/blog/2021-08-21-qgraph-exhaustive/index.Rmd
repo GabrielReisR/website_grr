@@ -126,7 +126,7 @@ network <-
     bonf = F, # should a bonferroni correction be used if minimum = 'sig'?
     FDRcutoff = 0.9, # False-Discovery Rate cutoff if *threshold* = 'fdr'
     
-    #' *Output arguments* (p. 30-31)
+    #' *Output arguments* (pp. 30-31)
     
     #mar = c(3, 3, 3, 3), # margins' vector c(bottom, left, top, rigth)
     #' *filetype* = 'R', can also be 'pdf', 'svg', 'tex', 'jpg', 'tiff'
@@ -141,7 +141,7 @@ network <-
     
     #' *Graphical arguments*
     
-    # Nodes (p. 31-32)
+    # Nodes (pp. 31-32)
     
     #color = rainbow(length(groups)), # vector with a color for each node
     vsize = ifelse(colnames(df) == neuroticism, 7.5, 6),
@@ -175,14 +175,52 @@ network <-
     #' just before closing the device
     diag = F, # should diagonal also be plotted? Can also be 'col'
     
-    # Node labels (p. 32-33)
+    # Node labels (pp. 32-33)
     
-    nodeNames = items,
+    #labels = T, # should labels be plotted?
+    label.cex = 0.7, # scalar on label size
+    label.color = 'black', # string on label colors
+    label.prop = 0.9, # proportion of the width of the node that the label scales
+    label.norm = "OOO", # normalize width of label size in nodes
+    label.scale = T, # should labels be scaled to fit the node?
+    label.scale.equal = T, # should labels have same font size?
+    #' *label.font* = ..., # integer specifying the label font of nodes
+    #' *label.fill.vertical* = ..., scalar indicating max prop to fill a node
+    #' *label.fill.horizontal* = ..., scalar indicating max prop to fill a node
+    node.label.offset = c(0.5,0.5), # where should label be centered, (x, y)
+    node.label.position = NULL, # set specific positions of node labels
     
+    # Edges (pp. 33-34)
+    #' *esize* = ..., size of largest edge
+    #' *edge.width* = ..., size of largest edge
+    #' *edge.color* = ..., size of largest edge
+    # posCol = c("#009900", "darkgreen"), color of positive edges
+    negCol = c("#BF0000","red"), # color of negative edges
+    unCol = "#808080", # default edge color of unweighted graphs
+    probCol = "blue", # color of probability nodes
+    negDashed = T, # should negative edges be dashed?
+    probabilityEdges = F, # do edges indicate probabilities?
+    colFactor = 1, # exponentially transforms color int. of relative strength 1
+    trans = T, # should edges fade to white?
+    fade = T, # should edges fade?
+    loopRotation = NA, # vector for each node assigning rotation in radians
+    loop = 1, # if diag = T, scales the size of the loop
+    lty = 1, # line type, see 'par'
+    #' *edgeConnectPoints* = ..., specifies the point for each edge to which it 
+    #' connects to a node, in radians
+    
+    # Edge curvature (pp. 34-35)
+    #' ...
+    #' ...
+    #' ...
     
     # Legend
-    legend.cex = 0.23
+    legend.cex = 0.23,
+    nodeNames = items
     
+    #' ...
+    #' ...
+    #' ...
   )
 ```
 
