@@ -24,7 +24,7 @@ layout: single # or single-sidebar
 ---
 > **TL;DR**: I try to use all `qgraph::qgraph()`'s arguments and fail miserably.
 > Truth is, there's just so many options, and most arguments didn't apply
-> to the data analysis I designed. Nevertheless, it was a great exercise]
+> to the data analysis I designed. Nevertheless, it was a great exercise
 > and I learned A LOT more about qgraph.
 
 ## Preparing the data
@@ -138,7 +138,7 @@ network <-
     #mar = c(3, 3, 3, 3), # margins' vector c(bottom, left, top, rigth)
     #' *filetype* = 'R', can also be 'pdf', 'svg', 'tex', 'jpg', 'png', 'tiff'
     #' *filename* = 'graph', name of the file WITHOUT extension
-    width = 7 * 1.4, # width of figue
+    width = 7 * 1.4, # width of figure
     height = 7, # height of figure
     normalize = T, # graph's normalized to look the same for all sizes
     DoNotPlot = F, # useful to save plot without plotting
