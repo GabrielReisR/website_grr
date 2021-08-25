@@ -22,7 +22,7 @@ categories:
 - qgraph
 layout: single # or single-sidebar
 ---
-> TL;DR: I try to use all `qgraph::qgraph()`'s arguments and fail miserably.
+> **TL;DR**: I try to use all `qgraph::qgraph()`'s arguments and fail miserably.
 > Truth is, there's just so many options, and most arguments didn't apply
 > to the data analysis I designed. Nevertheless, it was a great exercise]
 > and I learned A LOT more about qgraph.
@@ -138,13 +138,13 @@ network <-
     #mar = c(3, 3, 3, 3), # margins' vector c(bottom, left, top, rigth)
     #' *filetype* = 'R', can also be 'pdf', 'svg', 'tex', 'jpg', 'png', 'tiff'
     #' *filename* = 'graph', name of the file WITHOUT extension
-    #width = 7 * 1.4, # width of figue
-    #height = 7, # height of figure
-    #normalize = T, # graph's normalized to look the same for all sizes
-    #DoNotPlot = F, # useful to save plot without plotting
-    #plot = T, # should a new plot be made? if F, adds graph to existing plot
-    #rescale = T, # should layout be rescaled? best used with plot = F
-    #standAlone = F, # make output standalone LaTeX file if filetype = 'tex'
+    width = 7 * 1.4, # width of figue
+    height = 7, # height of figure
+    normalize = T, # graph's normalized to look the same for all sizes
+    DoNotPlot = F, # useful to save plot without plotting
+    plot = T, # should a new plot be made? if F, adds graph to existing plot
+    rescale = T, # should layout be rescaled? best used with plot = F
+    standAlone = F, # make output standalone LaTeX file if filetype = 'tex'
     
     #' *Graphical arguments*
     
@@ -423,6 +423,12 @@ network <-
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/Estimate network with less arguments-1.png" width="672" />
 ## Estimate network with a "cool" background
+
+One cool thing I found out during this is the `bg = T` argument.
+Basically, this argument lets the light shine through the node
+and onto the background. It's quite interesting. It's probably
+more useful if we have a bunch of nodes and various groupings.
+But, for now, let's see what we can get with this...
 
 
 ```r
