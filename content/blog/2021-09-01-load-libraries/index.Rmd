@@ -29,8 +29,6 @@ Analysis and doing an IRT on some questionnaire items. Reasonable packages for
 these operations could be:
 
 ```{r First example, eval = F, include=T, warning=F, message=F}
-load_libraries <- function(){
-
 library(dplyr)
 library(lavaan)
 library(magrittr)

@@ -30,8 +30,6 @@ these operations could be:
 
 
 ```r
-load_libraries <- function(){
-
 library(dplyr)
 library(lavaan)
 library(magrittr)
