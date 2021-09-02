@@ -3,7 +3,7 @@ title: "Sum specific columns by rows"
 subtitle: ""
 excerpt: "Sum scores using dplyr::select()"
 author: "Gabriel R. R."
-date: 2021-08-21
+date: 2021-09-02
 output: 
   html_document:
     toc: true
