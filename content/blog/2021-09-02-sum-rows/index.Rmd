@@ -1,0 +1,95 @@
+---
+title: "Sum specific columns by rows"
+subtitle: ""
+excerpt: "Sum scores using dplyr::select()"
+author: "Gabriel R. R."
+date: 2021-08-21
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    smooth_scroll: true
+    df_print: paged
+    code_folding: show
+draft: false
+images:
+series:
+tags:
+categories:
+- dplyr
+- tutorials
+- function
+layout: single # or single-sidebar
+---
+## Sometimes you have a messy dataset
+
+By that, I mean a dataset with a messy column ordering, uneccessary variables
+and so on. That's somewhat the case with the DASS-42 dataset taken from
+Kaggle (available 
+[here](https://www.kaggle.com/lucasgreenwell/depression-anxiety-stress-scales-responses)).
+
+I've taken the liberty of preserving "only" 10k cases. Let's load the data and
+present the problem.
+
+```{r Loading data and package, include=T, warning=F, message=F}
+load_libraries <- function(){
+  if (!require("dplyr"))
+    install.packages("dplyr"); library(dplyr) # select() and mutate()
+  if (!require("ggplot2"))
+    install.packages("ggplot2"); library(ggplot2) # final plot
+  if (!require("magrittr"))
+    install.packages("magrittr"); library(magrittr) # %<>% operator
+
+}
+
+load_libraries()
+
+df <- read.csv('https://raw.githubusercontent.com/GabrielReisR/R/master/estrutura%20de%20dados/dados/dass42_brief.csv')[-1]
+
+names(df)
+```
+
+The thing here is: item responses are stores in the "Q_number_A" columns.
+And columns are ordered in a weirdy weird way.
+The DASS scale measures depression, anxiety and stress. Say we're interested
+in joining these three constructs in an umbrella construct called *neuroticism*.
+
+In order to do that, we'd need to sum all items that start with a Q and ended
+with an A. We can do that with *dplyr*.
+
+```{r Solving problem}
+df %<>% 
+  mutate(neuroticism = df %>% select(starts_with("Q") & ends_with("A")) %>%
+                  rowSums())
+```
+
+What we've done is:
+
+1. Created a column called *neuroticism* using the `mutate` function.
+2. Selected all variables in *df* that started with "Q" and ended with an "A".
+3. Used `rowSums()` on those variables and stored it in *neuroticism*.
+
+Let's check out our new variable!
+
+```{r Histogram of neuroticism scores}
+df %>%
+  ggplot(aes(neuroticism)) +
+  geom_histogram(aes(y = ..density..), bins = 40,
+                 colour = "#011e5a", fill = "white") +
+  stat_function(fun = dnorm,
+                args = list(
+                  mean = mean(df$neuroticism, na.rm = T),
+                  sd = sd(df$neuroticism, na.rm = T)),
+                colour = "#011e5a") +
+  
+  # Rótulos
+  xlab('Neuroticism Score') +
+  ylab('Density of Scores') +
+  
+  # Tema
+  theme_classic()
+```
+
+It worked!
+That's it for today!
