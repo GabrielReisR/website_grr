@@ -1,0 +1,168 @@
+---
+title: "Clean data with one function"
+subtitle: "Personalize your data cleaning with one function"
+excerpt: "Instead of running a bunch of lines, run only one."
+author: "Gabriel R. R."
+date: 2021-09-03
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    smooth_scroll: true
+    df_print: paged
+    code_folding: show
+draft: false
+images:
+series:
+tags:
+categories:
+- tutorials
+- function
+layout: single # or single-sidebar
+---
+## Cleaning data takes a bunch of code
+
+If we're trying to stay organized, somewhere in the middle of this we'll have
+a bunch of blank lines. With this, the more we clean, the harder it gets to get
+a grasp on what was done. At the same time, it becomes difficult to initiate the
+analysis part of our script. When we spend a bunch of lines cleaning, running
+all those lines from top to bottom can take some time.
+
+Let's imagine you're working with the
+[DASS-42 dataset](https://www.kaggle.com/lucasgreenwell/depression-anxiety-stress-scales-responses).
+You want to do a bunch of changes in the dataset:
+
+1. Mantain only DASS responses, age and gender.
+2. Rename all items so they start as *dass_*.
+3. Fix scoring system.
+4. Create scores for depression.
+5. Create scores for anxiety.
+6. Create scores for stress.
+7. Create classifications for depression.
+8. Create classifications for anxiety.
+9. Create classifications for stress.
+10. Change classifications to factor.
+
+To do all of that, we'll use only two packages: *dplyr* and *tidyr*.
+
+```{r Checking dataset, include=T, warning=F, message=F}
+load_libraries <- function(){
+  if (!require("dplyr"))
+    install.packages("dplyr"); library(dplyr) # select() and mutate()
+  if (!require("magrittr"))
+    install.packages("magrittr"); library(magrittr) # %<>% operator
+}
+
+load_libraries()
+
+df <- read.csv('https://raw.githubusercontent.com/GabrielReisR/R/master/estrutura%20de%20dados/dados/dass42_brief.csv')[-1]
+
+names(df) # 10000 lines and 173 columns
+```
+
+
+Let's start our function. The function will receive a dataframe and will 
+perform the changes we want within this dataframe.
+
+```{r Making changes, include=T, warning=F, message=F}
+clean_data <- function(df){
+  #' Mantain only DASS responses, age and gender
+  df %<>%
+    select(age, gender,
+           (starts_with("Q") & ends_with("A")))
+  
+  #' Rename all items so they start as *dass_*
+  df %<>%
+    select(dass_ = starts_with("Q"))
+  
+  #' Fix scoring system
+  df %<>% select(starts_with("dass_")) %>% -1
+  
+  #' Create scores for depression
+  df %<>%
+    mutate(
+      depression_score =
+        df %>%
+        select(dass_2, dass_5, dass_12, dass_13, dass_16, dass_17, dass_20,
+               dass_23, dass_25, dass_26, dass_31, dass_32, dass_36, dass_41) %>% 
+        rowSums())
+  
+  #' Create scores for anxiety
+  df %<>%
+    mutate(
+      anxiety_score =
+        df %>%
+        select(dass_1, dass_6, dass_8, dass_10, dass_11, dass_14, dass_21,
+               dass_22, dass_27, dass_28, dass_34, dass_37, dass_40, dass_42) %>% 
+        rowSums())
+  
+  #' Create scores for stress
+  df %<>%
+    mutate(
+      stress_score =
+        df %>%
+        select(dass_3, dass_4, dass_7, dass_9, dass_15, dass_18, dass_19,
+               dass_24, dass_29, dass_30, dass_33, dass_35, dass_38, dass_39) %>% 
+        rowSums())
+  
+  #' Create classification for depression, anxiety and stress
+  df %<>%
+    mutate(
+      # Groupings for depression
+      depression_class = 
+        case_when(depression_score < 10 ~ "Normal",
+                  depression_score >= 10 & depression_score < 14 ~ "Mild",
+                  depression_score >= 14 & depression_score < 21 ~ "Moderate",
+                  depression_score >= 21 & depression_score < 28 ~ "Severe",
+                  depression_score >= 28 ~ "Highly severe"),
+      # Groupings for anxiety
+      anxiety_class = 
+        case_when(anxiety_score < 8 ~ "Normal",
+                  anxiety_score >= 8 & anxiety_score < 10 ~ "Mild",
+                  anxiety_score >= 10 & anxiety_score < 15 ~ "Moderate",
+                  anxiety_score >= 15 & anxiety_score < 20 ~ "Severe",
+                  anxiety_score >= 20 ~ "Highly severe"),
+      # Groupings for stress
+      stress_class = 
+        case_when(stress_score < 15 ~ "Normal",
+                  stress_score >= 15 & stress_score < 19 ~ "Mild",
+                  stress_score >= 19 & stress_score < 25 ~ "Moderate",
+                  stress_score >= 25 & stress_score < 34 ~ "Severe",
+                  stress_score >= 34 ~ "Highly severe")
+    )
+  
+  #' Change classifications to factor
+  severity_level <- c("Normal", "Mild", "Moderate", "Severe", "Highly severe")
+  
+  df$depression_class %<>% as.factor
+  df$depression_class <- factor(df$depression_class,
+                                levels = severity_level)
+  
+  df$anxiety_class %<>% as.factor
+  df$anxiety_class <- factor(df$anxiety_class,
+                             levels = severity_level)
+  
+  df$stress_class %<>% as.factor
+  df$stress_class <- factor(df$stress_class,
+                            levels = severity_level)
+  
+  return(df)
+}
+```
+
+There! I know it seems like a lot, but we'll only be seeing this whole function
+when we resolve to open it.
+
+## Running the code
+As can be seen, the function performs the changes in our dataframe and returns
+the altered dataframe to our desired object.
+
+```{r Running the function}
+df <- clean_data(df)
+
+glimpse(df)
+```
+
+Now, whenever we have an additional change we want to make to our dataframe, we
+do it directly in the `clean_data()` function.
