@@ -40,7 +40,7 @@ procedure, the final neural network model achieved Mean Absolute Error = 0.3135.
 Key questions asked were:
 1. How many suicides occured by year? And by month? Was there any noticeable 
 uptrend or downtrend throughout the years?
-2. Who commited suicide? Age, sex, race, occupation and other demographics were 
+2. Who died of suicide? Age, sex, race, occupation and other demographics were 
 explored.
 3. Where did suicide occur? Where were suicides more common and which Brazilian
 states had higher reports of suicide?
