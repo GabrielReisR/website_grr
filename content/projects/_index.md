@@ -1,6 +1,7 @@
 ---
-title: A Project Portfolio To Grow
-description: "List of projects."
+title: Projects
+description: "List of projects involving more in the depth coding, creation of
+and revising of scripts and whatever else I find relevant."
 author: "Gabriel dos Reis Rodrigues @ UFRGS"
 show_post_thumbnail: true
 show_author_byline: true
