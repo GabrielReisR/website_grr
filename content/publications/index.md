@@ -15,6 +15,11 @@ layout: single
 
 - **Rodrigues, G. R.**, Marasca, A. R., Yates, D. B., Bandeira, D. R. (in press). Follow-up on psychological assessment with a clinical school sample. *Interação em Psicologia*.
 
+#### Submitted
+- Polli, L., **Rodrigues, G. R.**, & Hohendorff, J. V. 
+*Professional profiles, beliefs on sexual violence, and decision-making for report: A mixed method study with private clinical psychologists.* [Manuscript submitted for publication].
+Psychology Department, IMED.
+
 #### 2020
 - Farina, L. S. A., Kretzmann, R. P., Gasparetto, L. G., **Rodrigues, G. R.**, Bardagi, M. P., Giacomoni, C. H., & Teixeira, M. A. P. (2020). Construction and evidences of validity for the Career Adapt-Abilities Scale (CAAS) Brazilian form for adolescents. *Psico*, *51*(3), e33735. https://doi.org/10.15448/1980-8623.2020.3.33735
 
