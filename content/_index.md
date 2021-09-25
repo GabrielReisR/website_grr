@@ -8,7 +8,8 @@ and communicating what I’ve learned.
 My current focus is on statistics,
 psychometrics, psychological methods and open science.
 
-[Curriculum Vitae](https://1drv.ms/b/s!AlinBqTxDDA2hoETwkZq-JRPsThcZA)"
+
+[**Curriculum Vitae**](https://1drv.ms/b/s!AlinBqTxDDA2hoETwkZq-JRPsThcZA)"
 date: 2019-02-18T12:27:33-06:00
 images:
   - img/unicorn-megaphone.png
