@@ -1,19 +1,19 @@
 ---
 ## Configure sidebar content in narrow column
-author: 
-role:  
-avatar_shape:   # circle, square, rounded
-show_social_links:   # specify social accounts in site config
-show_audio_link: true
-audio_link_label: "How to say my name"
+author: Gabriel Rodrigues
+role: MSc Psychology Student
+avatar_shape: rounded  # circle, square, rounded
+show_social_links: true  # specify social accounts in site config
+show_audio_link: false
+audio_link_label: ""
 link_list_label: "Interests" # bookmarks, elsewhere, etc.
 link_list:
-- name: Paris
-  url: https://en.wikipedia.org/wiki/Paris
-- name: Pastries
-  url: https://en.wikipedia.org/wiki/Pastry
-- name: People
-  url: https://en.wikipedia.org/wiki/People
+- name: Network Psychometrics
+  url: https://reisrgabriel.com/categories/network-psychometrics/
+- name: Rstats
+  url: https://reisrgabriel.com/categories/r/
+- name: Data Science
+  url: 
 ---
 
 ** index doesn't contain a body, just front matter above.

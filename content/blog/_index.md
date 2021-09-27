@@ -1,5 +1,5 @@
 ---
-title: Notes on things I sometimes forget
+title: Notes and tutorials
 description: |
   Some tutorials, some thoughts and some codes.
 author: "The R Markdown Team @RStudio"

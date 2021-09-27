@@ -1,12 +1,20 @@
 ---
 ## Configure page content in wide column
-title: "What I'm up to lately" # leave blank to exclude
+title: "A litte about me" # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
-number_categories: 3 # set to zero to exclude
+number_categories: 5 # set to zero to exclude
 show_intro: true
 intro: |
-  Cultures clash as I adjust to the challenges of life in Paris while juggling my career, new friendships, and love life. Here is how to catch up with me lately!
-show_outro: true
+  I'm a curious 24-year old Brazilian that's been involved in academia for about
+  6 years. Currently I'm a MSc Student in Psychology looking to update and help
+  the psychology field in developing and revising psychological methods. Moreover,
+  I'm an advocate for open science and enjoy sharing what I learn. Also, lately 
+  I've been interested in network psychometrics.
+  
+  On a more personal note, I love theater and music. Did a few gigs and plays as
+  an actor/musician and my favorite play is Hamilton.
+  
+show_outro: false
 outro: |
   <i class="fas fa-mug-hot pr2"></i>If my blog has helped you, you can [buy me a coffee](https://ko-fi.com/gabrielrr)!
 ---

@@ -1,0 +1,49 @@
+---
+title: "bootnet: A tutorial on estimating accuracy and stability"
+subtitle: ""
+excerpt: "Part 1 - Estimation with bootnet"
+author: "Gabriel R. R."
+date: 2021-09-15
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    smooth_scroll: true
+    df_print: paged
+    code_folding: show
+draft: false
+images:
+series:
+tags:
+categories:
+- tutorials
+- bootnet
+- network
+layout: single # or single-sidebar
+---
+## BFI dataset
+
+We'll use the Big-Five Inventory dataset to estimate accuracy and stability 
+measures using the bootnet package. 
+After cleaning our data and stablishing the groupings of variables, 
+we'll look at:
+
+1. Estimation with bootnet
+2. Stability of edge weights
+3. Stability of centrality measures
+4. Stability of differences in edge weights or in centrality measures
+
+```{r}
+load_libraries <- function(){
+  if (!require("dplyr"))
+    install.packages("dplyr"); library(dplyr) # select() and mutate()
+  if (!require("magrittr"))
+    install.packages("magrittr"); library(magrittr) # %<>% operator
+}
+
+load_libraries()
+
+}
+```
+
