@@ -120,10 +120,15 @@ enableEmoji = true
 
 [menu]
   [[menu.header]]
+    name = "Curriculum Vitae"
+    title = "CV"
+    url = "/cv_grr.pdf/"
+    weight = 1
+  [[menu.header]]
     name = "Publications"
     title = "Publications"
     url = "/publications/"
-    weight = 1
+    weight = 2
   #[[menu.header]]
   #  name = "About"
   #  title = "About Blogophonic"
@@ -138,7 +143,7 @@ enableEmoji = true
     name = "Projects"
     title = "Project Portfolio"
     url = "/projects/"
-    weight = 2
+    weight = 3
   [[menu.header]]
     name = "Blog"
     title = "Blog"
