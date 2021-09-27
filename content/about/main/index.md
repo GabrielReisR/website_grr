@@ -7,7 +7,7 @@ show_intro: true
 intro: |
   I'm a 24-year old Brazilian interested in psychometrics that's been involved 
   in academia for about 6 years. Currently I'm a MSc Student in Psychology 
-  looking toupdate and help the psychology field in developing and revising
+  looking to update and help the psychology field in developing and revising
   psychological methods. Moreover, I'm an advocate for open science and enjoy 
   sharing what I learn. Also, lately I've been interested in network 
   psychometrics.

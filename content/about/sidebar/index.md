@@ -13,7 +13,7 @@ link_list:
 - name: Rstats
   url: https://reisrgabriel.com/categories/r/
 - name: Data Science
-  url: 
+  url: https://medium.com/psicodata
 ---
 
 ** index doesn't contain a body, just front matter above.
