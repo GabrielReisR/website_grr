@@ -2,14 +2,11 @@
 title: "Gabriel R. Rodrigues"
 subtitle: "MSc Psychology Student @ UFRGS"
 description: "I love understanding new things, extracting information from data 
-and communicating what I’ve learned.
+and communicating what I learn.
 
 
 My current focus is on statistics,
-psychometrics, psychological methods and open science.
-
-
-[**Curriculum Vitae**](https://1drv.ms/b/s!AlinBqTxDDA2hoETwkZq-JRPsThcZA)"
+psychometrics, psychological methods and open science."
 date: 2019-02-18T12:27:33-06:00
 images:
   - img/unicorn-megaphone.png
