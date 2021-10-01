@@ -19,7 +19,7 @@ tags:
 categories:
 - tutorials
 - bootnet
-- network
+- network psychometrics
 layout: single # or single-sidebar
 ---
 ## BFI dataset
@@ -310,24 +310,24 @@ corStability(bootnet_case_dropping)
 ## 
 ## Sampling levels tested:
 ##    nPerson Drop%   n
-## 1      700  75.0 244
-## 2      918  67.2 247
-## 3     1136  59.4 258
-## 4     1353  51.7 262
-## 5     1571  43.9 249
-## 6     1789  36.1 251
-## 7     2007  28.3 245
-## 8     2224  20.6 251
-## 9     2442  12.8 234
-## 10    2660   5.0 259
+## 1      700  75.0 254
+## 2      918  67.2 244
+## 3     1136  59.4 217
+## 4     1353  51.7 230
+## 5     1571  43.9 261
+## 6     1789  36.1 259
+## 7     2007  28.3 259
+## 8     2224  20.6 273
+## 9     2442  12.8 245
+## 10    2660   5.0 258
 ## 
 ## Maximum drop proportions to retain correlation of 0.7 in at least 95% of the samples:
 ## 
 ## betweenness: 0.594 
 ##   - For more accuracy, run bootnet(..., caseMin = 0.517, caseMax = 0.672) 
 ## 
-## closeness: 0.672 
-##   - For more accuracy, run bootnet(..., caseMin = 0.594, caseMax = 0.75) 
+## closeness: 0.594 
+##   - For more accuracy, run bootnet(..., caseMin = 0.517, caseMax = 0.672) 
 ## 
 ## expectedInfluence: 0.75 (CS-coefficient is highest level tested)
 ##   - For more accuracy, run bootnet(..., caseMin = 0.672, caseMax = 1) 
@@ -371,7 +371,7 @@ differenceTest(bootnet_nonpar,
 
 ```
 ##   id1 id2  measure      lower      upper significant
-## 1  N1  N4 strength -0.1508714 0.08435854       FALSE
+## 1  N1  N4 strength -0.1404831 0.09632485       FALSE
 ```
 
 As we can see, there isn't a significant difference between the two nodes'
@@ -398,7 +398,7 @@ differenceTest(bootnet_nonpar,
 
 ```
 ##      id1    id2 measure      lower      upper significant
-## 1 N1--N2 N1--N5    edge -0.4650103 -0.3645901        TRUE
+## 1 N1--N2 N1--N5    edge -0.4668853 -0.3634959        TRUE
 ```
 
 There seems to be a significant difference between the two edges!

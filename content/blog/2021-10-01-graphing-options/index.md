@@ -1,5 +1,5 @@
 ---
-title: "Comparing two networks: Graphing options and Network Comparison Test"
+title: "Comparing two networks: Graphing options"
 subtitle: ""
 excerpt: "How to compare networks for two different groups?"
 author: "Gabriel R. R."
@@ -20,10 +20,12 @@ categories:
 - tutorials
 - NetworkComparisonTest
 - bootnet
-- function
-- network
+- network psychometrics
 layout: single # or single-sidebar
 ---
+If you wanna know about *NetworkComparisonTest*, check that 
+<a href= "https://reisrgabriel.com/blog/2021-10-01-nct/" target="_blank">**here**</a>.
+
 ## BFI dataset
 
 We'll use the Big-Five Inventory dataset to compare two networks based on
@@ -245,8 +247,8 @@ the Female one):
 
 ```r
 plot(network_male, 
-     layout = net_layout,
-     maximum = max_value,
+     layout = net_layout, #' *fixed layout*
+     maximum = max_value, #' *fixed edge width*
      groups = traits,
      label.cex = 0.7, # scalar on label size
      label.color = 'black', # string on label colors
@@ -294,7 +296,7 @@ We can put both networks now side by side and make useful and more accurate
 comparisons. But can we be sure of these comparisons? This is a job for 
 *NetworkComparisonTest* (NCT; van Borkulo et al., 2017; version 2.2.1).
 That'll be job for another post. You can check that
-<a href= "https://reisrgabriel.com/blog/2021-10-01-nct/" target="_blank">here</a>).
+<a href= "https://reisrgabriel.com/blog/2021-10-01-nct/" target="_blank">here</a>.
 
 Finally, you'd have to report these visualization choices. Report that maximum
 was fixed to the maximum absolute value considering both networks and that 

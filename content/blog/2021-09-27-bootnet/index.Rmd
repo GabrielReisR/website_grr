@@ -19,7 +19,7 @@ tags:
 categories:
 - tutorials
 - bootnet
-- network
+- network psychometrics
 layout: single # or single-sidebar
 ---
 ## BFI dataset
