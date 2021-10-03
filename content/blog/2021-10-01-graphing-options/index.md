@@ -322,5 +322,5 @@ https://doi.org/10.3758/s13428-017-0862-1
 
 van Borkulo, C. D., Boschloo, L., Kossakowski, J. J., Tio, P., Schoevers, R. A.,
 Borsboom, D., & Waldorp, L. J. (2017). Comparing network structures on three
-aspects: A permutation test. M*anuscript submitted*.
+aspects: A permutation test. *Manuscript submitted*.
 https://doi.org/10.13140/RG.2.2.29455.38569
