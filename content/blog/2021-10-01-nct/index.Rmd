@@ -261,7 +261,7 @@ male network).
 We could also investigate potential centrality differences. To do that, let's
 change the argument `test.centrality` to `TRUE`.
 
-```{r Checking invariance of centrality measures}
+```{r Checking invariance of centrality measures, message=FALSE, warning=FALSE}
 nct_test_centrality <- NCT(network_male, network_female,
                            it = 1000, test.centrality = T,
                            p.adjust.methods = "BH",
