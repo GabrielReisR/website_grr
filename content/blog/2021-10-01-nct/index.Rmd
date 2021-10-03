@@ -39,10 +39,10 @@ These will be the topics:
 1. [Estimating networks with bootnet](/blog/2021-10-01-nct/#estimation-with-bootnet)
 2. [Checking invariant network structure](/blog/2021-10-01-nct/#checking-invariant-network-structure)
 3. [Checking invariant global strength](/blog/2021-10-01-nct/#checking-invariant-global-strength)
-4. [Running and reporting *NetworkComparisonTest*](/blog/2021-10-01-nct/#running-and-reporting-networkcomparsiontest)
+4. [Running and reporting *NetworkComparisonTest*](/blog/2021-10-01-nct/#running-and-reporting-networkcomparisontest)
 5. [Checking invariant edge strength](/blog/2021-10-01-nct/#checking-invariant-edge-strength)
 6. [Checking which edges are different](/blog/2021-10-01-nct/#checking-which-edges-are-different)
-7. [Checking which edges are different](/blog/2021-10-01-nct/#checking-which-edges-are-different)
+8. [Checking invariance of centrality measures](/blog/2021-10-01-nct/#checking-invariance-of-centrality-measures)
 
 ```{r Initiating function, message = F, warning = F}
 load_libraries <- function(){
@@ -173,7 +173,8 @@ To run these tests, the function is in fact very simple.
 ```{r Running nct_results again, message=FALSE, warning=FALSE}
 set.seed(123) # random permutation seed
 nct_results <- NCT(network_male, network_female,
-                   it = 1000)
+                   it = 1000,
+                   progressbar = F)
 
 nct_results
 ```
@@ -207,7 +208,8 @@ NCT analyses now asking directly for specific edge differences to be tested.
 ```{r Testing specific edge weights differences, warning=FALSE, message=FALSE}
 nct_test_edges <- NCT(network_male, network_female, 
                       it = 1000, test.edges = T,
-                      p.adjust.methods = "BH")
+                      p.adjust.methods = "BH",
+                      progressbar = F)
 ```
 
 ## Checking which edges are different
@@ -268,7 +270,8 @@ nct_test_centrality <- NCT(network_male, network_female,
                            centrality = c("closeness",
                                           "betweenness",
                                           "strength",
-                                          "expectedInfluence"))
+                                          "expectedInfluence"),
+                           progressbar = F)
 ```
 
 Now, if we want to check if some centrality measure is statistically different,
