@@ -2,7 +2,7 @@
 title: "Suicides in Brasil: 2010-2019 (PT-BR)"
 subtitle: "Descriptive statistics and visualization of suicides in Brazil."
 excerpt: "Suicides in Brazil: How many? Who? Where?"
-date: 2021-06-25
+date: 2021-10-08
 author: "Gabriel Rodrigues"
 draft: false
 tags:
@@ -12,6 +12,7 @@ categories:
   - analyses
   - Python
   - machine learning
+  - dataset
 layout: single
 links:
 - icon: github
@@ -22,6 +23,10 @@ links:
   icon_pack: fas
   name: full analyses
   url: https://rpubs.com/reisrgabriel/761964
+- icon: kaggle
+  icon_pack: fas
+  name: dataset
+  url: https://www.kaggle.com/psicodata/dados-de-suicidios-entre-2010-e-2019
 - icon: record-vinyl
   icon_pack: fas
   name: machine learning
@@ -44,3 +49,7 @@ uptrend or downtrend throughout the years?
 explored.
 3. Where did suicide occur? Where were suicides more common and which Brazilian
 states had higher reports of suicide?
+
+Also, as a final product, datasets were published in a public platform.
+All datasets can be accessed
+<a href= "https://www.kaggle.com/psicodata/dados-de-suicidios-entre-2010-e-2019" target="_blank">here</a>.
