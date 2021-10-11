@@ -3,7 +3,7 @@ title: "Comparing two networks' centrality indices in the same plot"
 subtitle: ""
 excerpt: "Creating a function to compare centrality indices of two networks"
 author: "Gabriel R. R."
-date: 2021-10-01
+date: 2021-10-11
 output: 
   html_document:
     toc: true
