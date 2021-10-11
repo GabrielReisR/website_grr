@@ -174,7 +174,7 @@ of the network and deactivating another.
 That said, *z* scores next to 0 represent very low impact nodes. Greater values
 of *z* scores would indicate influential nodes.
 
-```{r z scores for strength, message=F, warning=F}
+```{r z scores for expected influence, message=F, warning=F}
 ei_scores <- c(0.2, -0.6, 0.1, 0.8, 0.5)
 get_z(ei_scores)
 ```
