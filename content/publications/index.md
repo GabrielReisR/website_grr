@@ -10,7 +10,7 @@ layout: single
 ---
 #### In preparation
 - Sacramento, A. M., **Rodrigues, G. R.**, Oliveira, I. M., & Teixeira, M. A. P.
-(2022). Academic Major Satisfaction Scale: Adaptation and evidences of validity.
+(in press). Academic Major Satisfaction Scale: Adaptation and evidences of validity.
 *Psico-USF*.
 
 - Albuquerque, N. S., Costa, D. B., **Rodrigues, G. R.**, Moret-Tatay, C., &
