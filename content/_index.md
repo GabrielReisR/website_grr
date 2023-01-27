@@ -5,7 +5,7 @@ description: "I love understanding new things, extracting information from data
 and communicating what I learn.
 
 
-My current focus is on statistics,
+My focus is on statistics,
 psychometrics, psychological methods and open science."
 date: 2019-02-18T12:27:33-06:00
 images:
