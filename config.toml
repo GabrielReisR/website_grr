@@ -97,18 +97,6 @@ enableEmoji = true
       icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://scholar.google.com.br/citations?user=dSx_AOYAAAAJ&hl=pt-BR&oi=ao"
-  [[params.social]]
-      icon      = "youtube" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.youtube.com/channel/UCE2AYtvBMlVos__5NE0WjOQ"
-  [[params.social]]
-      icon      = "instagram" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.instagram.com/reisrgabriel"
-  [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.facebook.com/gabriel.rodrigues.5836"
   #[[params.social]]
   #    icon      = "rss" # icon name without the 'fa-'
   #    icon_pack = "fas"
