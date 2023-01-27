@@ -9,6 +9,9 @@ draft: false
 layout: single
 ---
 #### In preparation
+- Sacramento, A. M., **Rodrigues, G. R.**, Oliveira, I. M., & Teixeira, M. A. P.
+(2022). Academic Major Satisfaction Scale: Adaptation and evidences of validity.
+*Psico-USF*.
 
 #### Submitted
 - Farina, L. S. A., **Rodrigues, G. R.**, Vacaro, I., & Teixeira, M. A. P. (2022).
@@ -23,10 +26,6 @@ Psychology Graduate Program, PUCRS.
 - Polli, L., **Rodrigues, G. R.**, & Hohendorff, J. V. (2021).
 *Professional profiles, beliefs on sexual violence, and decision-making for report: A mixed method study with private clinical psychologists.* [Manuscript submitted for publication].
 Psychology Department, IMED.
-
-- Sacramento, A. M., **Rodrigues, G. R.**, Oliveira, I. M., & Teixeira, M. A. P.
-(2021). *Academic Major Satisfaction Scale: Adaptation and evidences of validity*.
-[Manuscript submitted for publication]. Psychology Graduate Program, UFRGS.
 
 #### 2022
 - Leite, J. S. O., Freitas, C. P. P., & **Rodrigues, G. R.** (2022).
