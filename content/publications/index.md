@@ -13,19 +13,19 @@ layout: single
 (2022). Academic Major Satisfaction Scale: Adaptation and evidences of validity.
 *Psico-USF*.
 
+- Albuquerque, N. S., Costa, D. B., **Rodrigues, G. R.**, Moret-Tatay, C., &
+Irigaray, T. Q. (in press).
+Adaptation and psychometric properties of the Lexington Attachment to Pets Scale: Brazilian version.
+*Journal of Veterinary Behavior*. https://doi.org/10.1016/j.jveb.2022.12.005
+
 #### Submitted
 - Farina, L. S. A., **Rodrigues, G. R.**, Vacaro, I., & Teixeira, M. A. P. (2022).
 *Carreira, Maternidade e Bem-Estar Subjetivo da Mulher: Uma Revisão de Literatura: Carreira, Maternidade e Bem-estar Subjetivo.*
 [Manuscript submitted for publication]. Psychology Graduate Program, UFRGS.
 
-- Albuquerque, N. S., Costa, D. B., **Rodrigues, G. R.**, Moret-Tatay, C., &
-Irigaray, T. Q. (2021).
-*Adaptation and psychometric properties of the Lexington Attachment to Pets Scale: Brazilian version.* [Manuscript submitted for publication].
-Psychology Graduate Program, PUCRS.
-
 - Polli, L., **Rodrigues, G. R.**, & Hohendorff, J. V. (2021).
 *Professional profiles, beliefs on sexual violence, and decision-making for report: A mixed method study with private clinical psychologists.* [Manuscript submitted for publication].
-Psychology Department, IMED.
+Psychology Department, Atitus.
 
 #### 2022
 - Leite, J. S. O., Freitas, C. P. P., & **Rodrigues, G. R.** (2022).
@@ -40,6 +40,8 @@ D. R. Bandeira, C. M. Trentini, & J. P. Giordani (Eds.),
 - **Rodrigues, G. R.**, Marasca, A. R., Yates, D. B., Bandeira, D. R. (2022).
 Follow-up on psychological assessment with a clinical school sample.
 *Interação em Psicologia*. https://doi.org/10.5380/riep.v26i1.72054
+
+- Albuquerque, N. S., Costa, D. B., **Rodrigues, G. R.**, Sessegolo, N. S., Machado, J. S., Rossi, T., Moret-Tatay, C., & Irigaray, T. Q. (2022). Personality Traits of Brazilian Pet Owners and Nonowners and Their Association with Attachment to Pets. *Anthrozoös*. https://doi.org/10.1080/08927936.2022.2121046
 
 #### 2021
 - Farina, L. S. A., **Rodrigues, G. R.**, & Hutz, C. S. (2021). Individual
