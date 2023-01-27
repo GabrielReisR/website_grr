@@ -9,22 +9,12 @@ draft: false
 layout: single
 ---
 #### In preparation
-- Farina, L. S. A., **Rodrigues, G. R.**, & Hutz, C. S. (in press). Individual
-and environmental qualities associated with engagement and flow at work.
-In A. C. S. Vazquez & C. S.
-Hutz (Eds.), *Aplicações da psicologia positiva - Trabalho e organizações*.
-Hogrefe CETEPP.
-
-- **Rodrigues, G. R.**, Farina, L. S. A., & Teixeira, M. A. P. (in press).
-Evaluating career adapt-abilities during career counseling. In C. S. Hutz,
-D. R. Bandeira, C. M. Trentini, & J. P. Giordani (Eds.),
-*Avaliação psicológica no contexto escolar e educacional*. Grupo A.
-
-- **Rodrigues, G. R.**, Marasca, A. R., Yates, D. B., Bandeira, D. R.
-(in press). Follow-up on psychological assessment with a clinical school sample.
-*Interação em Psicologia*.
 
 #### Submitted
+- Farina, L. S. A., **Rodrigues, G. R.**, Vacaro, I., & Teixeira, M. A. P. (2022).
+*Carreira, Maternidade e Bem-Estar Subjetivo da Mulher: Uma Revisão de Literatura: Carreira, Maternidade e Bem-estar Subjetivo.*
+[Manuscript submitted for publication]. Psychology Graduate Program, UFRGS.
+
 - Albuquerque, N. S., Costa, D. B., **Rodrigues, G. R.**, Moret-Tatay, C., &
 Irigaray, T. Q. (2021).
 *Adaptation and psychometric properties of the Lexington Attachment to Pets Scale: Brazilian version.* [Manuscript submitted for publication].
@@ -35,9 +25,28 @@ Psychology Graduate Program, PUCRS.
 Psychology Department, IMED.
 
 - Sacramento, A. M., **Rodrigues, G. R.**, Oliveira, I. M., & Teixeira, M. A. P.
-(2021).
-*Academic Major Satisfaction Scale: Adaptation and evidences of validity*.
+(2021). *Academic Major Satisfaction Scale: Adaptation and evidences of validity*.
 [Manuscript submitted for publication]. Psychology Graduate Program, UFRGS.
+
+#### 2022
+- Leite, J. S. O., Freitas, C. P. P., & **Rodrigues, G. R.** (2022).
+Personal Characteristics Related to Engagement Before and During the COVID-19
+Pandemic. *Paidéia (Ribeirão Preto)*, *32*. https://doi.org/10.1590/1982-4327e3236
+
+- **Rodrigues, G. R.**, Farina, L. S. A., & Teixeira, M. A. P. (2022).
+Evaluating career adapt-abilities during career counseling. In C. S. Hutz,
+D. R. Bandeira, C. M. Trentini, & J. P. Giordani (Eds.),
+*Avaliação psicológica no contexto escolar e educacional* (pp. 243-255). Grupo A.
+
+- **Rodrigues, G. R.**, Marasca, A. R., Yates, D. B., Bandeira, D. R. (2022).
+Follow-up on psychological assessment with a clinical school sample.
+*Interação em Psicologia*. https://doi.org/10.5380/riep.v26i1.72054
+
+#### 2021
+- Farina, L. S. A., **Rodrigues, G. R.**, & Hutz, C. S. (2021). Individual
+and environmental qualities associated with engagement and flow at work.
+In A. C. S. Vazquez & C. S. Hutz (Eds.),
+*Psicologia Positiva e Organizacional na Prática*. Hogrefe CETEPP.
 
 #### 2020
 - Farina, L. S. A., Kretzmann, R. P., Gasparetto, L. G., **Rodrigues, G. R.**,
