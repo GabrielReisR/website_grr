@@ -1,6 +1,6 @@
 ---
 title: "Gabriel R. Rodrigues"
-subtitle: "MSc Psychology Student @ UFRGS"
+subtitle: "Master in Psychology @ UFRGS"
 description: "I love understanding new things, extracting information from data 
 and communicating what I learn.
 
