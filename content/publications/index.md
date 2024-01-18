@@ -8,24 +8,28 @@ draft: false
 # layout options: single, single-sidebar
 layout: single
 ---
-#### In preparation
-- Sacramento, A. M., **Rodrigues, G. R.**, Oliveira, I. M., & Teixeira, M. A. P.
-(in press). Academic Major Satisfaction Scale: Adaptation and evidences of validity.
-*Psico-USF*.
-
-- Albuquerque, N. S., Costa, D. B., **Rodrigues, G. R.**, Moret-Tatay, C., &
-Irigaray, T. Q. (in press).
-Adaptation and psychometric properties of the Lexington Attachment to Pets Scale: Brazilian version.
-*Journal of Veterinary Behavior*. https://doi.org/10.1016/j.jveb.2022.12.005
-
 #### Submitted
+- Chapuis-de-Andrade, S., **Rodrigues, G. R.**, Moret-Tatay, C., Cordellieri, P., & Irigaray, T. Q. (2023).
+*Pregnancy hypertension: Analyzing the link between previous breastfeeding duration, personality and psychological factors.*
+[Manuscript submitted for publication]. Postgraduate Program in Psychology, PUCRS.
+
 - Farina, L. S. A., **Rodrigues, G. R.**, Vacaro, I., & Teixeira, M. A. P. (2022).
 *Carreira, Maternidade e Bem-Estar Subjetivo da Mulher: Uma Revisão de Literatura: Carreira, Maternidade e Bem-estar Subjetivo.*
-[Manuscript submitted for publication]. Psychology Graduate Program, UFRGS.
+[Manuscript submitted for publication]. Postgraduate Program in Psychology, UFRGS.
 
 - Polli, L., **Rodrigues, G. R.**, & Hohendorff, J. V. (2021).
 *Professional profiles, beliefs on sexual violence, and decision-making for report: A mixed method study with private clinical psychologists.* [Manuscript submitted for publication].
 Psychology Department, Atitus.
+
+#### 2023
+- Sacramento, A. M., **Rodrigues, G. R.**, Oliveira, I. M., & Teixeira, M. A. P.
+(2023). Academic Major Satisfaction Scale: Adaptation and evidences of validity.
+*Psico-USF*, *28*(2), 239-251. https://doi.org/10.1590/1413-82712023280203
+
+- Albuquerque, N. S., Costa, D. B., **Rodrigues, G. R.**, Moret-Tatay, C., &
+Irigaray, T. Q. (2023).
+Adaptation and psychometric properties of the Lexington Attachment to Pets Scale: Brazilian version.
+*Journal of Veterinary Behavior*, *61*, 50-56. https://doi.org/10.1016/j.jveb.2022.12.005
 
 #### 2022
 - Leite, J. S. O., Freitas, C. P. P., & **Rodrigues, G. R.** (2022).
