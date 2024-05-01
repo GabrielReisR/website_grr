@@ -22,6 +22,11 @@ layout: single
 Psychology Department, Atitus.
 
 #### 2023
+- Arnoud, T. C. J., Linhares, I. Z., **Rodrigues, G. R.**, & Habigzang, L. F. (2023).
+Dating violence victimization among sexual and gender diverse adolescents in brazil.
+*Current Psychology: A Journal for Diverse Perspectives on Diverse Psychological Issues*.
+Advance online publication. https://doi.org/10.1007/s12144-023-05378-3
+
 - Sacramento, A. M., **Rodrigues, G. R.**, Oliveira, I. M., & Teixeira, M. A. P.
 (2023). Academic Major Satisfaction Scale: Adaptation and evidences of validity.
 *Psico-USF*, *28*(2), 239-251. https://doi.org/10.1590/1413-82712023280203
