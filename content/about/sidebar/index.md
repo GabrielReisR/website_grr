@@ -1,7 +1,7 @@
 ---
 ## Configure sidebar content in narrow column
 author: Gabriel Rodrigues
-role: MSc Psychology Student
+role: Master in Psychology
 avatar_shape: rounded  # circle, square, rounded
 show_social_links: true  # specify social accounts in site config
 show_audio_link: false
@@ -13,7 +13,7 @@ link_list:
 - name: Rstats
   url: https://reisrgabriel.com/categories/r/
 - name: Data Science
-  url: https://medium.com/psicodata
+  url: https://medium.com/datapsico
 ---
 
 ** index doesn't contain a body, just front matter above.

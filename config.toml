@@ -92,7 +92,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "medium" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://medium.com/psicodata"
+      url       = "https://medium.com/datapsico"
   [[params.social]]
       icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "fab"
